@@ -75,7 +75,7 @@ openocd -f stm32f3.cfg
 In another terminal, start an ARM-capable GDB and connect:
 
 ```sh
-arm-none-eabi-gdb build/magnetometer-compass.elf
+gdb build/magnetometer-compass.elf
 ```
 
 ```gdb
